@@ -1,0 +1,34 @@
+{
+    "sourceFile": "e2.java",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 4,
+            "patches": [
+                {
+                    "date": 1772597082293,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1772597118231,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,10 +3,10 @@\n \n     public static void main(String[] args) {\n         int contador = 0;\n \n-        for (int i = 1; i <= 5; i++) {\n-            for (int j = 1; j <= 5; j++) {\n+        for (int i = 1; i <= 4; i++) {\n+            for (int j = 1; j <= 3; j++) {\n \n                 if (i == j) {\n                     continue;\n                 }\n"
+                },
+                {
+                    "date": 1772597361862,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,9 +7,9 @@\n         for (int i = 1; i <= 4; i++) {\n             for (int j = 1; j <= 3; j++) {\n \n                 if (i == j) {\n-                    continue;\n+                    \n                 }\n                 contador++;\n             }\n \n"
+                },
+                {
+                    "date": 1772597709901,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,9 +7,9 @@\n         for (int i = 1; i <= 4; i++) {\n             for (int j = 1; j <= 3; j++) {\n \n                 if (i == j) {\n-\n+                    continue;\n                 }\n                 contador++;\n             }\n \n"
+                },
+                {
+                    "date": 1772661878028,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,10 +3,10 @@\n \n     public static void main(String[] args) {\n         int contador = 0;\n \n-        for (int i = 1; i <= 4; i++) {\n-            for (int j = 1; j <= 3; j++) {\n+        for (int i = 1; i <= 3; i++) {\n+            for (int j = 1; j <= 2; j++) {\n \n                 if (i == j) {\n                     continue;\n                 }\n"
+                }
+            ],
+            "date": 1772597082293,
+            "name": "Commit-0",
+            "content": "\nimport java.awt.ContainerOrderFocusTraversalPolicy;\n\n\npublic class e2 {\n\n    public static void main(String[] args) {\n        int contador = 0;\n\n        for (int i = 1; i <= 5; i++) {\n            for (int j = 1; j <= 5; j++) {\n\n                if (i == j) {\n                    continue;\n                }\n                contador++;\n            }\n\n        }\n        System.out.println(\"La suma es: \" + contador);\n    }\n}\n"
+        }
+    ]
+}
